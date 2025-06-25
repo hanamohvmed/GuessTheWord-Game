@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <h1 class="game-h1" data-aos="zoom-in" data-aos-duration="900"></h1>
+  <div class="game-container">
+  <div class="guess-game">
+    <div class="key-colors" data-aos="zoom-in" data-aos-duration="900">
+      <div class="key-color">
+        <div class="key in-place"><ion-icon class="icon" name="color-palette"></ion-icon></div>
+        <div class="key-text">Letter is correct and in place</div>
+      </div>
+      <div class="key-color">
+        <div class="key not-in-place"><ion-icon class="icon" name="color-palette"></ion-icon></div>
+        <div class="key-text">Letter is correct but not in place</div>
+      </div>
+      <div class="key-color">
+        <div class="key no"><ion-icon class="icon" name="color-palette"></ion-icon></div>
+        <div class="key-text">Letter is incorrect</div>
+      </div>
+    </div>
+
+    <div class="game-area" data-aos="zoom-in" data-aos-duration="900">
+      <div class="inputs"></div>
+      <div class="control">
+        <button class="check">Check Word</button>
+        <button class="hint"><span></span> Hint(s)</button>
+      </div>
+    </div>
+    </div>
+  </div>
+  <footer></footer>
+  <div class="game-gradient-background">
+      <div class="gradient-sphere sphere-1"></div>
+      <div class="gradient-sphere sphere-2"></div>
+      <div class="gradient-sphere sphere-3"></div>
+      <div class="glow"></div>
+      <div class="grid-overlay"></div>
+      <div class="noise-overlay"></div>
+  </div>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+  AOS.init();
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="js/main.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
