@@ -12,7 +12,7 @@ A responsive, interactive word guessing game where players have six attempts to 
 - **Smooth Animations:** Leveraging AOS for engaging fade and zoom animations.
 - **Gradient UI Elements:** Stylish design elements featuring gradient borders and glowing backgrounds.
 
-## Tech Stack
+## ⚙️ Tech Stack
 - **HTML5**
 - **SCSS/CSS3**
 - **JavaScript**
