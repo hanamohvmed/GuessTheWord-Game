@@ -18,3 +18,6 @@ A responsive, interactive word guessing game where players have six attempts to 
 - **JavaScript**
 - **SweetAlert2**
 - **AOS**
+
+## 📸 Demo
+[Live Demo](https://hanamohvmed.github.io/GuessTheWord-Game/)
